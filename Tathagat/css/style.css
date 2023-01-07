@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h1, h2, h3 {font-family: 'Roboto Condensed', sans-serif;}
+a {text-decoration: none;}
+a:hover {text-decoration: none; color: #fff; opacity: 0.9}
+.call{
+    margin-right: 2rem;
+    font-size: 16px;
+}
+nav {
+  background-color: #212121;
+}
+
+.sec {
+  margin: 5rem auto;
+}
+.mid{
+    background-color: #FFF4F2;
+    background-image: none;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 90vh;
+}
+.banner {
+  position: relative;
+}
+
+.form {
+  position: relative;
+}
+.formBox {
+  background: #fff;
+  padding: 2rem;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+  margin: 2rem 0 2rem 0;
+}
+.formBox p {
+  margin: 1.125rem 0 0.5rem 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1em;
+  text-transform: uppercase;
+  color: #666;
+}
+
+input, select, textarea {
+  width: 100%;
+  border: 0;
+  outline:0;
+  border-bottom: solid 1px #F0F0F0;
+  font-weight: 600;
+  font-size: 16px;
+}
+.formBox button {
+  width: 100%;
+  border: 0px;
+  margin-top: 1rem;
+}
+
+.navbar-brand img {
+  width: 150px;
+}
+.bannerCTA {
+    font-size: 1.125rem;
+    color: #fff;
+    background: #FF3115;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+}
+
+.primaryCTA{
+    font-size: 1.125rem;
+    color: #fff;
+    background: #FF3115;
+    padding: 0.625rem 1.5rem;
+    border-radius: 5px;
+}
+.secondaryCTA{
+    font-size: 1.125rem;
+    color: #fff;
+    background: #000;
+    padding: 0.625rem 1.5rem;
+    border-radius: 5px;
+}
+.left{
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+
+.right{
+    background-color: url("/image/ww.png");
+}
+
+.pillars {
+  background-image: url(../images/student.jpg);
+  padding: 15rem 0 3rem 0;
+}
+.pillars h2 {
+  background: #000;
+  padding: 1.125rem;
+  text-align: center;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+}
+.pillars h2 img {
+  width: 120px;
+}
+.pillars h5 {
+  margin: 0.6rem 0 0.6rem 0;
+  color: #FFC700;
+  border-radius: 5px;
+}
+
+.blackcard {
+  background: #000;
+  text-align: center;
+  padding: 1rem;
+}
+.card-body {
+  background: #FFC700;
+  padding: 1rem;
+  border-radius: 16px;
+  min-height: 230px;
+}
+
+.card-title {margin: 1rem 0;}
+
+
+.studentDetails {
+  margin: 2rem auto;
+}
+.studentDetails img{
+  width: 100%;
+  border-radius: 16px;
+}
+.studentDetails h5 {
+  margin: 1rem 0 1.5rem 0;
+}
+
+.testimonials {
+  background-image: url(../images/testimonilaBg.png);
+  background-repeat: repeat-x;
+  background-position: left bottom;
+  padding-bottom: 4rem;
+}
+.carousel-indicators {
+  position: absolute;
+  bottom: 40px;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: #000;
+}
+.carousel-inner {
+  width: 100%;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.1);
+  border-radius: 55px;
+  padding: 1.25rem;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+.carousel-item {
+  position: relative;
+}
+.profile img {
+  width: 60px;
+  margin-right: 8px;
+}
+.profile {
+  position: absolute;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  left: 0px;
+  top: 0px;
+}
+.profile h6 {
+  font-size: 1.25rem;
+  line-height: 100%;
+  margin-top: 8px;
+}
+.profile h6 span {
+  font-size: 0.8rem;
+  color: #555555;
+  line-height: 100%;
+}
+.companyLogo {
+  position: absolute;
+  width: 80px;
+  right: 10px;
+  top: 0;
+}
+.companyLogo img, .growh img, .youtube img {
+  width: 100%;
+}
+.growh {
+  position: absolute;
+  width: 100px;
+  bottom: 0;
+  left: 0;
+}
+.youtube {
+  position: absolute;
+  width: 200px;
+  bottom: 0;
+  right: 0;
+}
+
+.comments {
+  width: 80%;
+  margin: auto;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.faculties {
+  margin: 3rem auto;
+}
+.faculty {
+  position: relative;
+  margin: 1rem auto;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.faculty img {
+  width: 100%;
+}
+.fInfo {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  .mid {
+    height: 70vh;
+  }
+  .form {
+    width: 100%;
+  }
+  .formBox {
+    margin: 3rem 0rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .mid{
+      background-image: url(../images/ww.svg);
+  }
+  .formBox {
+    margin: 3rem 3rem;
+  }
+  .comments {
+    width: 50%;
+  }
+}
+.bkgrd{
+  background: #E8E8E8;
+}
+/* Best iim section */
+
+
+.exp{
+  position: relative;
+  width: 13rem;
+}
+.expe{
+  width: 13rem;
+}
+
+.para{
+  position: absolute;
+  margin-top: -2.5rem;
+  background: black;
+  font-size: 16px;
+  opacity: 0.7;
+  color: white;
+  text-align: left;
+  width: 100%;
+  display: block;
+}
+.featu{
+  margin-left: 18vw;
+}
+.cat{
+  margin-right: 15vw;
+}
